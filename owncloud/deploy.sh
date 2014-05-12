@@ -1,5 +1,4 @@
-sudo apt-get update
-sudo apt-get upgrade
+../Ubuntu.Update.sh
 sudo apt-get install owncloud
 sudo a2enmod ssl
 sudo a2ensite default-ssl

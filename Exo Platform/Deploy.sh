@@ -1,4 +1,4 @@
-sudo apt-get update
+../Ubuntu.Update.sh
 sudo apt-get install openjdk-7-jre-headless wget unzip zip mc -y
 
 VERSION=4.0.0
