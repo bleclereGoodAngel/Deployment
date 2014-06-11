@@ -1,6 +1,6 @@
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get dist-upgrade
-sudo do-release-upgrade
-sudo apt-get autoremove
-sudo apt-get autoclean
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo do-release-upgrade -y
+sudo apt-get autoremove -y
+sudo apt-get autoclean -y
