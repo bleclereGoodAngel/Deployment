@@ -6,3 +6,4 @@ wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_6.9.2-omnib
 sudo dpkg -i gitlab_6.9.2-omnibus.1-1_amd64.deb
 popd
 rm -rf gitlab.install
+sudo gitlab-ctl reconfigure
